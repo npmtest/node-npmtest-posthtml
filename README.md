@@ -1,6 +1,6 @@
 # npmtest-posthtml
 
-#### test coverage for  [posthtml (v0.9.2)](https://github.com/posthtml/posthtml)  [![npm package](https://img.shields.io/npm/v/npmtest-posthtml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-posthtml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-posthtml.svg)](https://travis-ci.org/npmtest/node-npmtest-posthtml)
+#### basic test coverage for  [posthtml (v0.9.2)](https://github.com/posthtml/posthtml)  [![npm package](https://img.shields.io/npm/v/npmtest-posthtml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-posthtml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-posthtml.svg)](https://travis-ci.org/npmtest/node-npmtest-posthtml)
 
 #### HTML/XML processor
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-posthtml/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-posthtml/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-posthtml/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-posthtml/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-posthtml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-posthtml/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-posthtml/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-posthtml/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-posthtml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-posthtml/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-posthtml/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-posthtml/build/coverage.html/index.html)
 
@@ -124,7 +124,8 @@
         "release:patch": "mversion patch",
         "test": "npm run lint && mocha -R dot && npm run cover"
     },
-    "version": "0.9.2"
+    "version": "0.9.2",
+    "bin": {}
 }
 ```
 
